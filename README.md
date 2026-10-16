@@ -1,9 +1,6 @@
 # Shade — private settlement rail for autonomous agent commerce
 
-> As AI agents start doing real B2B procurement, every payment on a public chain leaks your supplier graph,
-> order volumes and pricing to any competitor running a scraper. **Shade** pays every supplier at a fresh
-> one-time stealth address, submits everything through one relayer, and keeps supplier identities out of the
-> LLM entirely — on Monad, where the throughput makes decoy traffic practical.
+Shade is a privacy-preserving settlement rail for autonomous AI-agent B2B commerce, built on the Monad. It hides supplier relationships, order volumes, and pricing from public view using stealth addresses, a pseudonymous vault-and-relayer model, and hash-only invoice binding which keeps suppliers' identities and keys completely outside the LLM's reach. AI agents negotiate within hard-coded policy limits and see only opaque handles, quantities, and prices. Business relationships therefore remain hidden to privy eyes.
 
 | | |
 |---|---|
